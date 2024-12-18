@@ -1,5 +1,5 @@
---- a/arch/arm64/boot/dts/rockchip/rk3328.dtsi
-+++ b/arch/arm64/boot/dts/rockchip/rk3328.dtsi
+--- a/arch/arm64/boot/dts/rockchip/rk3566.dtsi
++++ b/arch/arm64/boot/dts/rockchip/rk3566.dtsi
 @@ -993,6 +993,7 @@
  		snps,dis-del-phy-power-chg-quirk;
  		snps,dis_enblslpm_quirk;

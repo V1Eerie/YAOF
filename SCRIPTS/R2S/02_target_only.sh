@@ -8,7 +8,7 @@ sed -i 's,-mcpu=generic,-march=armv8-a,g' include/target.mk
 sed -i 's,"eth1" "eth0","eth0" "eth1",g' target/linux/rockchip/armv8/base-files/etc/board.d/02_network
 sed -i "s,'eth1' 'eth0','eth0' 'eth1',g" target/linux/rockchip/armv8/base-files/etc/board.d/02_network
 
-# let rk3328 boot at powersave mode and use luci-app-cpufreq to set back schedutil
+# let rk3566 boot at powersave mode and use luci-app-cpufreq to set back schedutil
 # this may fix 1.6g boot failure
 sed -i '/CONFIG_CPU_FREQ_DEFAULT_GOV/d' target/linux/rockchip/armv8/config-6.6
 echo '
